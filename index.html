@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/mobile.css" />
     <title>Portfolio | Alex Ward</title>
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <img class="img logo" src="images/logo.png" alt="A W Logo" />
+        <div class="menu-btn" onclick="openMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">projects</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+        <h1>Alex</h1>
+        <h1>Ward</h1>
+        <h2>Frontend Developer</h2>
+
+        <span class="spinning-tag">&lt;/&gt;</span>
+        <div class="tag-shadow"></div>
+    </main>
+    <script src="js/index.js"></script>
 </body>
 </html>
