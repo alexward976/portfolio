@@ -6,13 +6,9 @@
 
 @keyframes spin {
     0% {transform: scaleX(.99) translateY(-.15em);}
-
     25% {transform: scaleX(0) translateY(0);}
-
     50% {transform: scaleX(-.99) translateY(-.15em);}
-
     75% {transform: scaleX(0) translateY(0);}
-
     100% {transform: scaleX(.98) translateY(-.15em);}
 }
 
@@ -22,7 +18,6 @@
     50% {transform: scaleX(1.2);}
     75% {transform: scaleX(.8);}
     100% {transform: scaleX(1.15);}
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -139,6 +134,7 @@
         font-size: 6em;
         font-weight: 900;
         animation: spin 4.3s infinite linear;
+        user-select: none;
     }
     
     .tag-shadow {
