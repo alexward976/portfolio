@@ -20,12 +20,69 @@
         font-size: 2.5em;
     }
 
+    .page-main {
+        margin-top: 0;
+    }
+
+    .about-wrapper {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
     .about {
         margin-top: 2em;
     }
 
+    .about>p {
+        padding: 1em 10%;
+    }
+
     .about>img {
-        width: 200px!important;
-        height: 200px;
+        width: 20em;
+        height: 20em;
+    }
+
+    .about-img-wrap {
+        margin-right: 2em;
+    }
+
+    .about-img-wrap>img {
+        display: block;
+        margin-top: 0;
+        width: 7em;
+    }
+
+    .about-img-wrap>span {
+        margin-bottom: .8em;
+    }
+
+    .contact-main {
+        margin-top: 6em;
+    }
+
+    .contact-main>h1 {
+        font-size: 7em;
+    }
+
+    .contact-wrapper {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contact-wrapper>div {
+        margin: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-wrapper>div>span {
+        transition: all .4s ease;
+    }
+
+    .contact-wrapper>div>span:hover {
+        transform: scale(1.2);
+        transition: all .5s ease;
     }
 }
