@@ -103,7 +103,7 @@ header {
 
 .navbar a {
     text-decoration: none;
-    font-size: 6rem;
+    font-size: 5rem;
     color: white;
     padding-right: .2em;
 }
@@ -167,8 +167,9 @@ h2 {
     flex-direction: column;
 }
 
-.page-main>h1, .page-main>.about-wrapper>.about>h1 {
+.page-main>h1, .about>h1, .projects>h1 {
     text-shadow: none;
+    font-size: 4.5em;
 }
 
 .about>img {
@@ -219,11 +220,58 @@ h2 {
     align-items: center;
 }
 
+.contact-wrapper>div {
+    margin-top: .9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 .contact-wrapper a {
     margin-bottom: .3em;
     display: block;
-    text-decoration: none;
     font-size: 3em;
     color: white;
+}
+
+.project-cards {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.card {
+    padding: 1em;
+    text-align: center;
+    width: 310px;
+    height: 360px;
+    color: var(--oxford);
+    background-color: white;
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card>h3 {
+    font-size: 1.5em;
+}
+
+.card>img {
+    width: 40%;
+    margin: 2em auto;
+}
+
+.card>p {
+    font-style: italic;
+}
+
+.card>a {
+    font-size: 1.3em;
+    font-weight: bold;
 }
