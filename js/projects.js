@@ -15,7 +15,7 @@ projects = [
         name: 'Your Website Here!',
         made_with: 'whatever you need!',
         image_path: '../images/q-mark.png',
-        link: '../'
+        link: '#'
     },
 ]
 
@@ -25,7 +25,7 @@ projects.forEach(element => {
     let cardDiv = document.createElement('div');
     cardDiv.classList.add('card');
 
-    let cardTitle = document.createElement('h3');
+    let cardTitle = document.createElement('h2');
     cardTitle.textContent = element.name;
 
     let cardLogo = document.createElement('img');

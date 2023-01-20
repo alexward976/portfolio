@@ -105,8 +105,9 @@
     }
 
     .card:hover {
-        transform: scale(1.05);
-        box-shadow: 0px 10px 30px white, 0px -10px 30px white;
+        background-color: white;
+        transform: scale(1.05) translateY(-5px) rotate(-2deg); 
+        box-shadow: 0px 5px 20px white, 0px -5px 20px white;
         transition: all .5s ease;
     }
 }

@@ -189,6 +189,10 @@ h2 {
     padding: .5em;
 }
 
+.about>p:nth-of-type(2) {
+    font-size: 1.3em;
+}
+
 .about-img-wrap {
     margin-top: 3em;
     display: flex;
@@ -250,7 +254,7 @@ h2 {
     width: 310px;
     height: 360px;
     color: var(--oxford);
-    background-color: white;
+    background-color: rgb(226, 226, 226);
     border-radius: 21px;
     display: flex;
     flex-direction: column;
